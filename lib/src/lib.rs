@@ -1,6 +1,5 @@
 //this function silently fails to format
-pub async fn async_main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> 
+pub async fn async_test()
 {
-    println!("complete");
-    Ok(())
+    
 }
